@@ -1,0 +1,27 @@
+{
+  "name": "logger-js",
+  "version": "1.0.0",
+  "description": "This is a js version logger",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js && node ./test/test-change-at-runtime.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdlbad/logger-js.git"
+  },
+  "keywords": [
+    "js",
+    "logger",
+    "runtime"
+  ],
+  "author": "dlzhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zdlbad/logger-js/issues"
+  },
+  "homepage": "https://github.com/zdlbad/logger-js#readme"
+}
