@@ -1,5 +1,5 @@
 {
-  "name": "logger-js",
+  "name": "small-logger",
   "version": "1.0.0",
   "description": "This is a js version logger",
   "main": "index.js",

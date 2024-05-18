@@ -1,11 +1,12 @@
 const createLogger = (logLevel='DEBUG', withTimeStamp=true) => {
   return {
     LOGGING_LEVEL_MAP: {
-      DEBUG: 0,
-      INFO: 1,
-      WARN: 2,
-      ERROR: 3,
-      FATAL: 4,
+      TRACE: 10,
+      DEBUG: 20,
+      INFO: 30,
+      WARN: 40,
+      ERROR: 50,
+      FATAL: 60,
     },
     _level: logLevel,
     _withTimeStamp: withTimeStamp,
